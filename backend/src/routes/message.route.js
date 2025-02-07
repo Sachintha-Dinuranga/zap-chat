@@ -3,6 +3,7 @@ import { protectRoute } from "../middleware/auth.middleware.js";
 import {
   getMessages,
   getUsersForSidebar,
+  sendMessages,
 } from "../controllers/message.controller.js";
 
 const router = express.Router();
