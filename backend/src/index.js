@@ -24,7 +24,7 @@ app.use(
 
 // Routes
 app.use("/api/auth", authRoutes);
-app.use("/api/message", messageRoutes);
+app.use("/api/messages", messageRoutes);
 
 // connect to the server and db
 app.listen(port, () => {
