@@ -7,9 +7,11 @@ const ProfilePage = () => {
   const [selectedImg, setSelectedImg] = useState(null);
 
   const handleImageUpload = async (e) => {
+    // Grab the image as a file
     const file = e.target.files[0];
     if (!file) return;
 
+    // Read the file
     const reader = new FileReader();
 
     reader.readAsDataURL(file);
