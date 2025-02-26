@@ -18,7 +18,7 @@ A real-time chat application built with the MERN stack, featuring Socket.io for 
 - **Authentication:** JWT, bcrypt  
 
 ## 📸 Screenshots  
-*(Add some screenshots of your app here)*  
+
 
 ## 🏗️ Installation  
 
